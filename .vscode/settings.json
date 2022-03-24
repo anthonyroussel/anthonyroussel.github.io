@@ -27,6 +27,13 @@
       "source.fixAll": true
     }
   },
+  "[toml]": {
+    "editor.defaultFormatter": "bungcip.better-toml",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    }
+  },
   "yaml.schemas": {
     "https://json.schemastore.org/github-workflow.json": ".github/workflows/*.yml",
     "https://json.schemastore.org/dependabot-2.0": ".github/dependabot.yml"

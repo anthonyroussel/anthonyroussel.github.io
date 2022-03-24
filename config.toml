@@ -1,4 +1,18 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
+# Hostname (and path) to the root, e.g. https://bep.is/
+baseURL = 'https://roussel.dev'
+
+# Site title.
 title = 'My New Hugo Site'
+
+# See Module Config for how to import a theme.
 theme = 'hugo-coder'
+
+# Enable disabling of all pages of the specified Kinds.
+disableKinds = ['sitemap', 'RSS']
+
+[module]
+# Exclude .gitkeep files from static folder
+[[module.mounts]]
+source = 'static'
+target = 'static'
+excludeFiles = '.gitkeep'
